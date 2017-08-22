@@ -58,7 +58,7 @@ namespace Novell.Directory.Ldap.Asn1
         /// <param name="b">
         ///     The Asn1Boolean object to encode
         /// </param>
-        /// <param name="out">
+        /// <param name="out_Renamed">
         ///     The output stream onto which the ASN.1 object is
         ///     to be encoded
         /// </param>
@@ -73,7 +73,7 @@ namespace Novell.Directory.Ldap.Asn1
         /// <param name="n">
         ///     The Asn1Numeric object to encode
         /// </param>
-        /// <param name="out">
+        /// <param name="out_Renamed">
         ///     The output stream onto which the ASN.1 object is
         ///     to be encoded
         /// </param>
@@ -91,7 +91,7 @@ namespace Novell.Directory.Ldap.Asn1
         /// <param name="n">
         ///     The Asn1Null object to encode
         /// </param>
-        /// <param name="out">
+        /// <param name="out_Renamed">
         ///     The output stream onto which the ASN.1 object is
         ///     to be encoded
         /// </param>
@@ -109,7 +109,7 @@ namespace Novell.Directory.Ldap.Asn1
         /// <param name="os">
         ///     The Asn1OctetString object to encode
         /// </param>
-        /// <param name="out">
+        /// <param name="out_Renamed">
         ///     The output stream onto which the ASN.1 object is
         ///     to be encoded
         /// </param>
@@ -136,7 +136,7 @@ namespace Novell.Directory.Ldap.Asn1
         /// <param name="c">
         ///     The Asn1Structured object to encode
         /// </param>
-        /// <param name="out">
+        /// <param name="out_Renamed">
         ///     The output stream onto which the ASN.1 object is
         ///     to be encoded
         /// </param>
@@ -148,7 +148,7 @@ namespace Novell.Directory.Ldap.Asn1
         /// <param name="t">
         ///     The Asn1Tagged object to encode
         /// </param>
-        /// <param name="out">
+        /// <param name="out_Renamed">
         ///     The output stream onto which the ASN.1 object is
         ///     to be encoded
         /// </param>
@@ -166,7 +166,7 @@ namespace Novell.Directory.Ldap.Asn1
         /// <param name="id">
         ///     The Asn1Identifier object to encode
         /// </param>
-        /// <param name="out">
+        /// <param name="out_Renamed">
         ///     The output stream onto which the ASN.1 object is
         ///     to be encoded
         /// </param>

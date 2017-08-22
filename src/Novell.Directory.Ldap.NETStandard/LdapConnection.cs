@@ -197,10 +197,6 @@ namespace Novell.Directory.Ldap
         ///     which is passed to this method sets all constraints, while an
         ///     LdapConstraints object passed to this method sets only base constraints.
         /// </summary>
-        /// <param name="cons">
-        ///     An LdapConstraints or LdapSearchConstraints Object
-        ///     containing the contstraint values to set.
-        /// </param>
         /// <seealso cref="Constraints()">
         /// </seealso>
         /// <seealso cref="SearchConstraints()">
@@ -550,9 +546,7 @@ namespace Novell.Directory.Ldap
         ///     class factory to construct a socket connection during
         ///     LdapConnection.connect method.
         /// </summary>
-        /// <param name="factory">
-        ///     An object capable of producing a Socket.
-        /// </param>
+        
         public LdapConnection()
         {
             InitBlock();
@@ -3113,6 +3107,7 @@ namespace Novell.Directory.Ldap
         /// <param name="queue">
         ///     the response queue or null
         /// </param>
+        /// <param name="bindProps"></param>
         /// <returns>
         ///     the LdapResponseQueue for this request
         /// </returns>
@@ -3480,6 +3475,7 @@ namespace Novell.Directory.Ldap
         /// <param name="url">
         ///     the referral url
         /// </param>
+        /// <param name="reference"></param>
         /// <returns>
         ///     a new LdapMessage with appropriate information replaced
         /// </returns>

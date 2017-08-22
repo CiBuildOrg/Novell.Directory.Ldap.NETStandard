@@ -120,7 +120,6 @@ namespace Novell.Directory.Ldap.Asn1
             content = len > 0 ? (sbyte[]) dec.decodeOctetString(in_Renamed, len) : new sbyte[0];
         }
 
-
         /* Asn1Object implementation
         */
 

@@ -45,6 +45,14 @@ using Novell.Directory.Ldap.Utilclass;
 
 namespace Novell.Directory.Ldap
 {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="certificate"></param>
+    /// <param name="chain"></param>
+    /// <param name="sslPolicyErrors"></param>
+    /// <returns></returns>
     public delegate bool RemoteCertificateValidationCallback(
         object sender, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors);
 
@@ -312,10 +320,6 @@ namespace Novell.Directory.Ldap
         /// <summary>
         ///     Create a new Connection object
         /// </summary>
-        /// <param name="factory">
-        ///     specifies the factory to use to produce SSL sockets.
-        /// </param>
-
         //		internal Connection(LdapSocketFactory factory)
         internal Connection()
         {

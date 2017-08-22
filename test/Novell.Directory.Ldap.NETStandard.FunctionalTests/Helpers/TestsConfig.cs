@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.Configuration;
-
 namespace Novell.Directory.Ldap.NETStandard.FunctionalTests.Helpers
 {
     public class LdapServerConfiguration
